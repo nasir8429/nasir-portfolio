@@ -2,3 +2,89 @@
 body {
     font-family: 'Roboto Slab', serif;
 }
+h1{
+    font-size: 60px;
+    
+}
+.orange-color{
+    color: orange;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+.green-color{
+    color: rgb(7, 133, 55);
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width img{
+    width: 50%;
+    margin-left: 20%;
+}
+.stay-mission{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    width: 50%; 
+    padding: -10px; 
+
+}
+.stay-mission h1{
+    margin-left: 20px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(red, rgb(177, 79, 22));
+    padding: 10px 30px;
+    color: white;
+    font-size: 700;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/shape-2.png);
+    background-repeat: no-repeat;
+}
+.target-mission h1{
+    text-align: center;
+}
+.mission-width{
+    width: 50%;
+}
+.mission-width img{
+    width: 50%;
+    padding-left: 10px;
+    margin: 30px;
+}
+.mission-width p{
+    text-align:justify;
+    margin: 30px 30px;
+
+}
+h2{
+    font-size: 40px;
+    margin: 30px;
+}
+#mission{ background-color:thistle;
+   margin-right: 200px;
+   border-radius: 40px 40px;
+
+}
+#vission{
+    background-color:wheat;
+    margin-right: 200px;
+    border-radius: 40px 40px;
+}
+#goals{
+    background-color: turquoise;
+    margin-right: 200px;
+    border-radius: 40px 40px;
+}
