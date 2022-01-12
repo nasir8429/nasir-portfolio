@@ -42,6 +42,7 @@ p{
 .stay-mission h1{
     margin-left: 20px;
 }
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(red, rgb(177, 79, 22));
@@ -58,6 +59,9 @@ p{
 .target-mission h1{
     text-align: center;
 }
+.target-mission h2{
+    margin-left: 30px;
+}
 .mission-width{
     width: 50%;
 }
@@ -73,7 +77,8 @@ p{
 }
 h2{
     font-size: 40px;
-    margin: 30px;
+    font-weight: 900;
+    
 }
 #mission{ background-color:thistle;
    margin-right: 200px;
@@ -90,4 +95,110 @@ h2{
     background-color: turquoise;
     margin-right: 200px;
     border-radius: 40px 40px;
+}
+.dev-with-limit {
+ text-align: justify;
+ padding-right: 300px;
+
+}
+.dev-area{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-position-x: left ;
+}
+.global-community {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.global-community-left {
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.global-community-right {
+    width: 40%;
+}
+.global-community-right img {
+    width: 500px;
+    margin-left: 200px;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    color: whitesmoke;
+    background-color: black;
+}
+.footer h2 {
+    font-family: monospace;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+.footer p{
+    text-align: center;
+}
+.top-brands{
+    display: flex;
+    margin: 0px;
+    margin-left: 150px;
+    margin-bottom: 15px;
+    width: 60%;
+ 
+}
+.google-brands{
+    
+    border: 3px solid grey;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 20%;
+    height: 20%;
+   
+   
+}
+.google-brands h2{
+    margin-left: 20px;
+ 
+
+}
+.apple-brands{    border: 3px solid grey;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 20%;
+    height: 20%;
+
+    height: 20%;
+    
+}
+.apple-brands h2{
+    margin-left: 20px;
+}
+.facebook-brands{
+    border: 3px solid grey;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 20%;
+    height: 20%;
+}
+.facebook-brands h2{
+    margin-left: 20px;
+}
+
+.youtube-brands{
+    border: 3px solid grey;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 20%;
+    height: 20%;
+
+}
+.youtube-brands h2{
+    margin-left: 20px;
 }
